@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.box-img {
+    width: 300px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(125deg, #000 20%, red);
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0 0 20px #0c0c0c;
+    padding: 2px;
+}
+
+.img-carnet {
+    width: 290px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px 50px 0 0;
+    filter: grayscale(100);
+    transition: all 2s ease;
+}
+
+.img-carnet:hover {
+    transform: scale(1.5);
+    filter: grayscale(0);
+}
